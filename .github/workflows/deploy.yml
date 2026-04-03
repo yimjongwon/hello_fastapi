@@ -32,4 +32,4 @@ jobs:
 
             # 5. 백그라운드로 실행하기
             # nohup 으로 실행하고 로그는 app.log 에 남기기
-            nohup python3 -m uvicorn main:app --host 0.0.0.0 --port 8000 > app.log 2>&1
+            nohup python3 -m uvicorn main:app --host 0.0.0.0 --port 8000 > app.log 2>&1 &
